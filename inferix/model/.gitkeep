@@ -1,0 +1,4 @@
+# This directory stores the trained Inferix model files.
+# Run `python -m inferix.train` to generate:
+#   - inferix_model.json  (XGBoost model)
+#   - label_encoder.pkl   (sklearn LabelEncoder)

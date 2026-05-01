@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inferix"
+version = "0.1.0"
+description = "India-aware semantic data type inferencer for CSV columns"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Inferix Team"},
+]
+keywords = [
+    "csv",
+    "inference",
+    "semantic",
+    "types",
+    "india",
+    "pan",
+    "gst",
+    "aadhaar",
+    "ifsc",
+    "data-profiling",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.23.0",
+    "openpyxl>=3.0.0",
+    "scipy>=1.9.0",
+    "scikit-learn>=1.1.0",
+    "xgboost>=1.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/inferix"
+Repository = "https://github.com/your-username/inferix"
+Issues = "https://github.com/your-username/inferix/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+shap = [
+    "shap>=0.41.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["inferix*"]
+
+[tool.setuptools.package-data]
+inferix = ["model/*.json", "model/*.pkl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"

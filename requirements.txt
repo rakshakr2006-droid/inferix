@@ -1,0 +1,20 @@
+# Inferix — Dependencies
+# Python 3.10+
+
+# Core data handling
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.0
+
+# Statistics
+scipy>=1.9.0
+
+# Machine learning
+scikit-learn>=1.1.0
+xgboost>=1.7.0
+
+# Explainability (optional, used for SHAP evidence in future)
+# shap>=0.41.0
+
+# Testing
+pytest>=7.0.0
