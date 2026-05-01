@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "inferix"
+name = "inferix-py"
 version = "0.1.0"
 description = "India-aware semantic data type inferencer for CSV columns"
 readme = "README.md"

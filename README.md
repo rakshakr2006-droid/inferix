@@ -1,8 +1,8 @@
 # Inferix — India-Aware Semantic Data Type Inferencer
 
-[![PyPI version](https://img.shields.io/pypi/v/inferix.svg)](https://pypi.org/project/inferix/)
-[![Python](https://img.shields.io/pypi/pyversions/inferix.svg)](https://pypi.org/project/inferix/)
-[![Downloads](https://img.shields.io/pypi/dm/inferix.svg)](https://pypi.org/project/inferix/)
+[![PyPI version](https://img.shields.io/pypi/v/inferix-py.svg)](https://pypi.org/project/inferix-py/)
+[![Python](https://img.shields.io/pypi/pyversions/inferix-py.svg)](https://pypi.org/project/inferix-py/)
+[![Downloads](https://img.shields.io/pypi/dm/inferix-py.svg)](https://pypi.org/project/inferix-py/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Tests](https://img.shields.io/badge/tests-62%20passed-brightgreen.svg)]()
 
@@ -54,7 +54,7 @@ Most tools like pandas only detect basic types (`int`, `float`, `string`). **Inf
 ## Installation
 
 ```bash
-pip install inferix
+pip install inferix-py
 ```
 
 Or install from source:
