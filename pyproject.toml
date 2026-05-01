@@ -46,9 +46,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-username/inferix"
-Repository = "https://github.com/your-username/inferix"
-Issues = "https://github.com/your-username/inferix/issues"
+Homepage = "https://github.com/rakshakr2006-droid/inferix"
+Repository = "https://github.com/rakshakr2006-droid/inferix"
+Issues = "https://github.com/rakshakr2006-droid/inferix/issues"
 
 [project.optional-dependencies]
 dev = [

@@ -60,7 +60,7 @@ pip install inferix
 Or install from source:
 
 ```bash
-git clone https://github.com/your-username/inferix.git
+git clone https://github.com/rakshakr2006-droid/inferix.git
 cd inferix
 pip install -e .
 ```
